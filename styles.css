@@ -1,0 +1,48 @@
+body {
+    background-image: url('background.png'); /* Replace with your background image URL */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+select, input {
+    width: calc(100% - 20px); /* Adjust width to match */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+
+button {
+    width: calc(100% - 20px); /* Adjust width to match */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
